@@ -1,0 +1,20 @@
+<html>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<body>
+	<h3 class="title">
+        <div class="title">Mini ML Prediction</div>
+    </h3>
+    <a href="https://github.com/ayusht2396/ml_apps">Code here on Github!</a>
+    <form action="/predict" method="POST">
+        <label for="weight">Weight</label>
+        <input type="text" id="weight" name="weight" required>
+        <br>
+        <label for="height">Height</label>
+        <input type="text" id="height" name="height" required>
+        <br>
+        Prompt: {{result}}<br>
+        <input id="click" type="submit" value="Predict">
+    </form>
+
+</body>
+</html>
