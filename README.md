@@ -9,6 +9,4 @@ What does the app use?
 <li>CSS
 <li>Flask
 <li>Scikit Learn (Linear Regression)
-=======
-# flask_ml_apps
->>>>>>> origin/main
+
